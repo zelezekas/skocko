@@ -1,0 +1,59 @@
+.dugme {
+    height: 7vmin;
+    justify-self: flex-start;
+    margin-bottom: 7px;
+}
+
+#dugmad {
+    height: 10vmin;
+    margin-bottom: 10px;
+}
+
+.renderujZnakove {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-start;
+}
+
+.divKrugova {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.divZnakovaIKrugova {
+    display: flex;
+    margin-left: 100px;
+    column-gap: 20px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.rjesenje {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.crveni {
+    background-color: red;
+    padding: 5px;
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.zuti {
+    background-color: yellow;
+    padding: 5px;
+    margin: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.prazni {
+    background-color: transparent;
+}
